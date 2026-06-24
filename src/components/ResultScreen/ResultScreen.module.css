@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  gap: 1rem;
+}
+
+.emoji {
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #e8d5b0;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.message {
+  font-size: 1rem;
+  color: #a09080;
+  margin: 0;
+}
+
+.scoreCard {
+  width: 100%;
+  max-width: 320px;
+  background: #1e1e2e;
+  border: 1.5px solid #2d2d3d;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.scoreMain {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+}
+
+.scoreNumber {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #c9956a;
+  line-height: 1;
+}
+
+.scoreDivider {
+  font-size: 1.5rem;
+  color: #a09080;
+}
+
+.scoreTotal {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #a09080;
+}
+
+.scorePercent {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #a09080;
+}
+
+.progressTrack {
+  width: 100%;
+  height: 6px;
+  background: #2d2d3d;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #c9956a, #a0674a);
+  border-radius: 3px;
+  transition: width 0.8s ease;
+}
+
+.button {
+  margin-top: 0.5rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #c9956a, #a0674a);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 16px rgba(201, 149, 106, 0.35);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 8px rgba(201, 149, 106, 0.25);
+}

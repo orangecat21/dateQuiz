@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e8d5b0;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #c9956a;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #a09080;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+  max-width: 320px;
+}
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  margin: 0.5rem 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.statNumber {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #c9956a;
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  color: #a09080;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #c9956a, #a0674a);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 16px rgba(201, 149, 106, 0.35);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 8px rgba(201, 149, 106, 0.25);
+}
